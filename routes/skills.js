@@ -5,7 +5,7 @@ const skillsCtrl = require('../controllers/skills')
 router.get('/', skillsCtrl.index)
 router.get('/new',skillsCtrl.newSkill)
 router.get('/:id', skillsCtrl.show)
-// router.get('/:id/edit', todosCtrl.editToDo)
+// router.get('/:id/edit', skillsCtrl.editSkill)
 
 router.post('/', skillsCtrl.create)
 router.delete('/:id', skillsCtrl.deleteSkill)

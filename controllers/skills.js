@@ -29,15 +29,15 @@ const deleteSkill = (req, res) => {
   res.redirect('/skills')
 }
 
-// const editToDo = (req, res) => {
-//   res.render('todos/edit', {
-//     todo: Todo.getOne(req.params.id)
+// const editSkill = (req, res) => {
+//   res.render('skills/edit', {
+//     skill: Skill.getOne(req.params.id)
 //   })
 // }
 
 // const update = (req, res) => {
-//   Todo.editOne(req.params.id)
-//   res.redirect('/todos/')
+//   Skill.editOne(req.params.id)
+//   res.redirect('/skills/')
 // }
 
 module.exports = {
@@ -45,6 +45,7 @@ module.exports = {
     show, 
     newSkill,
     create, 
-    deleteSkill,
-    // editToDo
+    deleteSkill
+    // editSkill,
+    // update
 }

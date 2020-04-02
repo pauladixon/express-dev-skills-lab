@@ -22,7 +22,7 @@ const deleteOne = (id) => {
 }
 
 // const editOne = (id) => {
-//     todos[id] = input
+//     skills[id] = input
 // }
 
 module.exports = {
