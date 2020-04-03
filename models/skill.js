@@ -21,14 +21,9 @@ const deleteOne = (id) => {
     skills.splice(id, 1)
 }
 
-// const editOne = (id) => {
-//     skills[id] = input
-// }
-
 module.exports = {
     getAll,
     getOne,
     create, 
     deleteOne
-    // editOne
 }
